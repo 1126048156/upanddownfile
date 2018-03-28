@@ -57,11 +57,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="down.aspx" />
     <Content Include="moreuploading.aspx" />
     <Content Include="oneuploading.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="down.aspx.cs">
+      <DependentUpon>down.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="down.aspx.designer.cs">
+      <DependentUpon>down.aspx</DependentUpon>
+    </Compile>
     <Compile Include="moreuploading.aspx.cs">
       <DependentUpon>moreuploading.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
